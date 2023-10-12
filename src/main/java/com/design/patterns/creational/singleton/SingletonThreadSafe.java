@@ -1,4 +1,4 @@
-package com.design.patterns.creational;
+package com.design.patterns.creational.singleton;
 /**
  * Apenas uma variação do padrão Singleton, porém considerando multiplas threads.
  */

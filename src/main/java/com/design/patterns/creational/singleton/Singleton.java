@@ -1,4 +1,4 @@
-package com.design.patterns.creational;
+package com.design.patterns.creational.singleton;
 
 /**
  * Garantir que uma classe tenha somente uma instancia no programa
