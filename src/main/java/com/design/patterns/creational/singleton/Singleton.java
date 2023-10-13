@@ -5,15 +5,15 @@ package com.design.patterns.creational.singleton;
  * e fornecer um ponto de acesso global a mesma.
  */
 public class Singleton {
-    /**
-     * Add any pértinent variables and methods
-     */
-    private Singleton instancia;
     private Singleton(){}
-    public Singleton getInstancia() {
-        if (instancia == null)
-            return instancia = new Singleton();
+    private Singleton instance;
+    public Singleton getInstance() {
+        if (instance == null)
+            return instance = new Singleton();
 
-        return instancia;
+        return instance;
     }
+    /**
+     * Add any pertinent variables and methods
+     */
 }
