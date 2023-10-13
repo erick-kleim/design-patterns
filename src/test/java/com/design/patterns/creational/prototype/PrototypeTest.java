@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class PrototypeTest {
 
     @Test
-    public void propotipeTest(){
+    public void prototypeTest(){
         Prototype prototype = new Prototype();
         prototype.intVariable=10;
         prototype.stringVariable="Ten";
@@ -22,7 +22,7 @@ public class PrototypeTest {
     }
 
     @Test
-    public void prototyperegistryTest(){
+    public void prototypeRegistryTest(){
         createPrototype("POSITIVE");
         createPrototype("NEGATIVE");
 
