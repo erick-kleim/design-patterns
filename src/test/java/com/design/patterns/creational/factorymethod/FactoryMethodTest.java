@@ -1,8 +1,7 @@
-package com.design.patterns.creational;
+package com.design.patterns.creational.factorymethod;
 
 import com.design.patterns.creational.factorymethod.factories.concrete.AnotherFactory;
 import com.design.patterns.creational.factorymethod.factories.concrete.OtherFactory;
-import com.design.patterns.creational.factorymethod.products.Product;
 import com.design.patterns.creational.factorymethod.products.concrete.AnotherProduct;
 import com.design.patterns.creational.factorymethod.products.concrete.OtherProduct;
 import org.junit.jupiter.api.Assertions;
