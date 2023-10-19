@@ -7,7 +7,7 @@ public class ConcreteDefaultStrategy implements Strategy{
     public void show(Context context) {
         String data1 = "Data 1: " + context.textData();
         String data2 = "Is value negative: " + context.intValueNegative();
-        String data3 = "value: " + context.intData();
+        String data3 = "Value: " + context.intData();
         System.out.println(data1);
         System.out.println(data2);
         System.out.println(data3);

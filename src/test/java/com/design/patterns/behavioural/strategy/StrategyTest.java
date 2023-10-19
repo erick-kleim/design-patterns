@@ -31,7 +31,7 @@ public class StrategyTest {
         String expected1 = """
                 Data 1: Information 1
                 Is value negative: true
-                value: 99999
+                Value: 99999
                 """;
 
         sameContext.setStrategy(new ConcreteDifferentStrategy());
@@ -39,7 +39,7 @@ public class StrategyTest {
         String out = outContent.toString();
         String expected2 = """
                 Data 1: Information 1
-                Data 2: -99999
+                Value: -99999
                 """;
         assertEquals(expected1+expected2, out);
     }
